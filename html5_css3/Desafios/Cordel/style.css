@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.back_image_bug{
+    background-attachment: fixed;
+    background-image: url("images/bug.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.back_image_letter{
+    background-attachment: fixed;
+    background-image: url("images/letter.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    background-color: white;
+    padding: 50px 40px;
+}
+div p{
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+header h1{
+    font-family: 'Passion One', cursive;
+    font-size: 6.0em;
+    font-weight: bold;
+}
+header span{
+    font-family: 'Passion One', cursive;
+    font-size: 1.4em;
+}
