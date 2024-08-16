@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tentar mudar o zoom do site ou abrir em outro tipo de dispositivo</p>
+
+    <picture>
+        <!-- a ordem importa -->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>colocando um jazz no site</p>
+    <audio src="audios/smoke_jacket_blues.mp3" controls></audio>
+    <!-- MP3 WAV OGG -->
+
+    <!-- segunda alternativa -->
+    <audio proload="metadata" controls loop>
+        <source src="audios/smoke_jacket_blues.mp3" type="audio/mpeg">
+        <source src="audios/smoke_jacket_blues.wav" type="audio/wav">
+        <source src="audios/smoke_jacket_blues.ogg" type="audio/ogg">
+        <p>infelizmente o seu navegador nao consegue 
+        reproduzir audio <a href="audios/smoke_jacket_blues.mp3">
+        clique aqui </a>para fazer download</p>
+    </audio>
+
+    <h1>Reproduzindo video com HTML5</h1>
+    <p>Videos hospedados localmente no servidor</p>
+    <video src="videos/trator.mp4" width="500" controls></video>
+
+    <!-- video alternativo -->
+    <video controls>
+        <source src="videos/Trator.webm" type="video/webm">
+        <source src="videos/trator.mp4" type="video/mp4">
+        <p>infelizmente o seu navegador nao consegue 
+            reproduzir audio <a href="videos/trator.mp4">
+            clique aqui </a>para fazer download</p>
+    </video>
+
+    <h1>Videos no youtube</h1>
+    <!--eh mais interessante que o cliente tenha uma conta no youtube-->
+    <p>Video do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BVKVeqVIeHQ"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+</body>
+</html>
