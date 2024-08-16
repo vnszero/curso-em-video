@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        h1{
+            background-color: lightgreen;
+            border: solid;
+            height: 300px;
+            width: 300px;
+            margin: auto; /*centraliza a caixa*/
+            padding: 3px 2px 4px 5px; /*sentido horario*/
+                    /*top right bottom left*/
+        }
+        a{
+            border-color: red;
+            border-style: dotted;
+            border-width: 5px;
+
+            outline-color: blue;
+            outline-style: dashed;
+            outline-width: 5px;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;         
+        }
+        span{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box level</h1>
+    <p>o paragrafo tambem é box level</p>
+    <p><a href="#">links</a> podem ser colocados ao lado <a href="#">linksA</a> na mesma linha <a href="#">link2</a> <a href="#">link32</a></p>
+    <p>O <span>também é inline</span> mas com o CSS é possível mudar o display para box level e vice-versa.</p>
+</body>
+</html>

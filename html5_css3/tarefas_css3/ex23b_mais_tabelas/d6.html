@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: grey;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        tfoot{
+            background-color: grey;
+            color: white;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgoldenrodyellow;
+        }
+        .container{
+            overflow-x: auto; 
+            /* apenas tabela com rolagem lateral*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas responsivas</h1>
+    <div class="container">
+        <table>
+            <caption>cabeçalho fixo para tabelas grandes</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 50px;">População</th>
+                    <th>Temperatura Média</th>
+                    <th>IDH</th>
+                    <th>PIB</th>
+                    <th>Capital</th>
+                    <th>Taxa de alfabetização</th>
+                    <th>Expectativa de Vida</th>
+                    <th>Taxa de Poluição</th>
+                    <th>Taxa de Natalidade</th>
+                    <th>Taxa de desemprego</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">45.919.049</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21.168.791</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17.264.943</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="num">16.232.120</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de habitantes</th>
+                    <td class="num"><strong>80.423.765</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores dolor nulla nemo perspiciatis. Incidunt odio quae suscipit cumque aliquam voluptatum dolorem nostrum fugiat, quam distinctio possimus accusamus commodi rerum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam eos voluptas quas culpa facilis eveniet, voluptatum vel provident sapiente aut nesciunt, nulla velit! Consequatur reprehenderit possimus animi velit natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi asperiores laudantium, sit hic culpa quas nisi dolorem dolorum consequatur dicta rerum iusto. Illum et reiciendis nesciunt aspernatur eius! Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam dicta ipsum. Quo nostrum eaque ullam incidunt quos! Error accusantium maxime quam architecto voluptatibus consequuntur, alias dolorum vel! Nemo, eos?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nulla nemo aperiam accusamus eum quo itaque aliquam, dolor, quisquam earum in eveniet, minus ipsam illum illo aut necessitatibus facilis consequuntur!
+    </p>
+</body>
+</html>

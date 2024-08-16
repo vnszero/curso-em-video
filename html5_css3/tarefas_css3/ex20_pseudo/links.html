@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            color: blueviolet;
+            text-decoration: none;
+        }
+        a:visited{
+            color: cadetblue;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .especial::before{
+            content: "=> ";
+        }
+        a::after{
+            color: darkslategray;
+            content: " [link]";
+            font-weight: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.youtube.com/">youtube</a></li>
+        <li><a href="https://www.alura.com.br/" class="especial">site curso</a></li>
+        <li><a href="https://www.google.com">google</a></li>
+    </ul>
+</body>
+</html>

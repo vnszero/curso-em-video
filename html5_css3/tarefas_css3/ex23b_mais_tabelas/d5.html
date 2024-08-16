@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colunas</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: left;
+        }
+        th{
+            border: 1px solid black;
+        }
+        .destaque{
+            background-color: lightgreen;
+        }
+        .group{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="destaque">
+            <col class="group" span="2">
+            <col>
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Eloi</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Mariana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Comerciante</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Gestor</td>
+        </tr>
+    </table>
+</body>
+</html>

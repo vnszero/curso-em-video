@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        aside{
+            background-color: lightgray;
+            color: darkslategray;
+            margin: 0px;
+        }
+        body{
+            background-color: gray;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0px;
+        }
+        footer{
+            background-color: darkslategrey;
+            color: azure;
+            margin: 0px;
+            text-align: center;
+        }
+        header{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        nav > a{
+            color: black;
+            padding: 2px;
+            margin: 5px;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            background-color: darkblue;
+            color: azure;
+        }
+        main{
+            background-color: white;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.376);
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav> <!--menus-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Futebol Basquete Natação</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus itaque voluptates nam veritatis nisi officiis maxime totam tempore eveniet. Voluptas quam minima excepturi voluptatem sequi amet distinctio assumenda quisquam deleniti.</p>
+                <aside>
+                    Escrito por José Braga.
+                </aside>
+            </article>
+            <article>
+                <h2>Outro artigo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit ipsam asperiores, dolorum itaque ipsum quod placeat, harum dicta repellendus, nam autem dolor? Temporibus doloremque maiores, eius expedita nesciunt tempora!</p>
+                <aside>
+                    Escrito por Rodolfo Neto.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Golem Web</p>
+    </footer>
+</body>
+</html>
