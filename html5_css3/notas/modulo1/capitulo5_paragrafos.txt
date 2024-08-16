@@ -1,0 +1,12 @@
+paragrafos <p> texto <\p>
+quebra de linha <br>
+
+emojis e simbolos sao tabelados
+	&trade; <!--trademark-->
+
+	emojipedia
+	&#x270C;
+	& indica que eh simbolo
+	#x indica que eh hexadecimal
+	270C eh o numero do emoji
+	; simbolos especiais terminam com ;

@@ -1,0 +1,22 @@
+//////////obsoletos//////////////
+recursos de forma como 
+<center></center>
+<font size=30>teste</font>
+
+recuros que não estão relacionados
+como sentido foram removidos
+a forma do texto passou a ser
+responsabilidade da CSS
+animação é responsabilidade do JS
+
+W3C sempre atualiza as absoletas
+
+o HTML5 só suporta tags de semântica
+
+///////////////////////////////////
+negrito <strong> e italico <em>
+
+ctrl + shift + p, wrap with abbreviation, p
+
+////////////////////////////////
+citação tag <q></q>

@@ -1,0 +1,35 @@
+cores são importantes, tem mais links externos no pdf
+rgb
+#hexadecimal
+hsl
+rgba -> alpha da transparência
+
+cores primarias: azul, vermelho, amarelo
+cores secundarias: verde, violeta, laranja
+cores terciários: vermelho-alaranjado
+
+cores quentes e frias
+
+3, 4 ou 5 cores na paleta de cores, além de preto e branco
+
+cores complementares: cores que entram em contraste
+
+cores análogas: cores imediatamente ao lado
+
+cores análogas relacionadas: contraste menor
+
+cores intercaladas: 3 cores separadas por intervalos
+
+cores triádicas: 3 cores simetricamente distribuidas no circulo cromática
+
+cores em quadrado: 4 cores distribuidas simetricamente no circulo
+
+cores tetradicas: pares de opostos
+
+monocromia: uma mesma cor com saturação e luminosidade variada
+
+ferramentas úteis:
+	color.adobe - paleta de cores da adobe, muito bom
+		|_ eh possivel extrair cores de uma logo ou imagem
+	palletom.com
+	colorzilla

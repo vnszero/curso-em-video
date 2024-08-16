@@ -1,0 +1,14 @@
+Gimp
+pexels
+unsplash
+
+jpeg (imagens de fundo) 
+png (imagens de maior qualidade ou transparentes)
+
+1500px de largura no máximo
+resolução em 72
+qualidade 70%
+manter a versão full das imagens
+
+eh possível deixar imagens no servidor junto com os arquivos css e html
+ou eh possivel buscar a imagem em outro servidores da web

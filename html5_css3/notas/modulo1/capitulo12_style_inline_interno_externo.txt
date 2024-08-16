@@ -1,0 +1,15 @@
+O estilo eh feito na linha mas deve ser usado em casos pontuais
+	Dificulta muito a manutenção do site
+	
+o estilo feito de forma interna permite que o css fique separado do html
+	entretanto eles dividem o mesmo documento e mesmo assim a manutenção é cara
+	supondo que existem varios arquivos com o mesmo css, nao seria possivel usar um css externo?
+	
+estilo externo é mais versátil
+	é possível ter dois arquivos de css que se complementam
+	é só criar um novo link
+	
+é possível misturar as três técnicas
+	|_ externo (a ordem dos links define que sobrepõe)
+		|_ interno (sobrepõe todos externos)
+			|_ inline (sobrepõe todos)

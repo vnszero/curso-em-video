@@ -1,0 +1,31 @@
+www - world wide web
+
+UTF-8
+MB -> armazenamento
+Mb -> transmissão
+
+MOdulação e DEModução => MODEM
+
+DNS - agenda da Internet
+
+Rotas dinâmicas
+
+////////////////////
+domínio
+	|_ nome único
+	|_ pago anualmente (30-50 reais)
+	|_ Top Level Domais (TLDs)
+
+Hospedagem
+	|_ servidor que vai manter o meu site
+	|_ prevê recursos de banco de dados, php, python etc
+	|_ pago mensalmente
+	
+www.github.com/gustavoguanabara -> URL
+	|_ github.com -> dominio
+	|_ .com -> TLD
+	|_ www -> subdominio
+	|_ /gustavoguanabara -> caminho
+	
+coutry code TLDs -> .br
+generic TLDs -> .com .edu .gov

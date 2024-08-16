@@ -1,0 +1,72 @@
+Tipografia
+	- emoção das fontes
+
+anatomia do tipo
+	altura-x
+	altura das maiúsculas
+	ascendente (altura de vazamento para cima da altura-x)
+	descendente
+	serifa
+	haste
+	filete
+	arco
+	esporão
+	vértice
+	terminal
+	braço
+	perna
+	pé
+	espinha
+	barriga
+	olho
+	orelha
+	cauda
+
+glifo = símbolos/letras case sensitive
+
+familia tipografica
+	light
+	normal
+	semibold
+	bold
+	extrabold
+	etc
+
+categoria de fontes
+	serifadas
+	sans-serif (sem serifa) - textos longos
+	monoespaçada
+	handwriting
+	display
+	
+safe CSS web font combinations
+	- W3C
+	
+tamanhos segundo a W3C
+	medidas absolutas
+		- cm, centimetro
+		- mm, milimetro
+		- in, polegada
+		- px, pixels (recomendado)
+		- pt, ponto
+		- pc, pyca
+	medidas relativa
+		- em, altura-M (recomendado, funciona com porcentagem)
+		- ex, altura-x
+		- rem, relativo ao body
+		- vw, view-port width
+		- vh, view-port height
+	
+	16px = 1em
+	
+	weight - peso
+	width - largura
+	height - altura
+	
+fonts ninja -> fontes no html
+what font is -> fontes em imagens
+font squirrel -> fontes em imagens
+myfont.com -> fontes em imagens
+
+	
+	

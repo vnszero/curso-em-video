@@ -1,0 +1,69 @@
+a linguagem de marcação HTML (Hypertext Markup Language)
+as folhas de estilo em cascata CSS (Cascading Style Sheet) 
+
+HTML -> conteúdo
+	|_ texto
+	|_ imagens
+	|_ videos
+	|_ tabelas
+
+CSS -> design
+	|_ cores
+	|_ sombras
+	|_ tamanhos
+	|_ posicionamento
+
+Javascript -> interações
+	|_ menus
+	|_ animações
+	|_ popups
+	|_ validações
+	
+Conteudo em HTML
+<> - colchete angular
+	<h1> Exemplo de Titulo </h1>
+	<h1> abertura de tag
+	</h1> fechamento de tag
+	
+	<img src="foto.png" alt="Exemplo de foto" [parametro] = [valor]>
+	o img nao tem fechamento
+
+Estilo em CSS
+seletor{
+	declaração;
+		|_ popriedades. ex.: color
+}
+h1{
+	font-family: Arial;
+	font-size: 20pt;
+	color: blue;
+}
+
+estrutura basica de documento HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8>
+		<meta name="viewport" 
+		content="width=device-width, 
+		initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Olá Mundo!</h1>
+	</body>
+</html>
+
+//////////////////////////////////
+front-end => desenvolvedor focado nas tecnologias client side, != designer
+	|_ html
+	|_ css
+	|_ JS
+back-end => desenvolvedor focado nas tecnologias server-side
+	|_ php
+	|_ node JS
+	|_ python
+	|_ java
+	|_ c#
+	|_ ruby
+full-stack => front-end + back-end	

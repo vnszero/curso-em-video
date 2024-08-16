@@ -1,0 +1,31 @@
+<picture>
+	source pequena <!-- a ordem importa -->
+	source media
+	img grande
+</picture>
+
+<audio src="" controls autoplay><\audio>	
+<!-- 
+	controls cria um display para executar midia
+	autoplay faz o som tocar automaticamente ao abrir o site
+	loop faz o audio tocar em loop
+	preload="matadata" so carrega informações gerais do audio, 
+		o arquivo so é enviado ao usuario se ele der play
+		isso é bom pois otimiza o carregamento do site
+	arquivos wav sao muito pesados
+-->
+
+	<audio proload="metadata" controls loop>
+        <source src="midia/smoke_jacket_blues.mp3" type="audio/mpeg">
+        <source src="midia/smoke_jacket_blues.wav" type="audio/wav">
+        <source src="midia/smoke_jacket_blues.ogg" type="audio/ogg">
+        <p>infelizmente o seu navegador nao consegue 
+        reproduzir audio <a href="midia/smoke_jacket_blues.mp3">
+        clique aqui </a>para fazer download</p>
+    </audio>
+	
+	////////////////////
+	formatos de video
+		MP4, MKV, M4V, WebM e OGV
+		hospedagem local de video é caro, principalmente quando a qualidade de video é importante
+		consumo de banda é enorme para videos hospedados

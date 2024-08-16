@@ -1,0 +1,5 @@
+1º conceitos e termos iniciais: front-end, back-end, fullstack dev, etc
+	inserindo elementos no html
+	multimidia
+	
+2º deixando as coisa mais bonitas

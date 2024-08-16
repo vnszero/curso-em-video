@@ -1,0 +1,28 @@
+seletores personalizados
+. em CSS = class em HTML
+# em CSS = id em HTML
+
+a Diferença entre id e class
+	quando apenas 1 elemento precisa de uma configuração especial se usa id
+	quando 2 ou mais elementos precisam compartilhar uma configuração se usa class
+	
+pseudo classes
+: em CSS = pseudo classes
+div:houver
+
+> simbolo de filho
+div > p{
+	display: none;
+}
+significa que um p dentro de div tera o estilo definido
+
+pseudo element
+::after
+::before
+
+////resumo///////
+# id
+. class
+> children
+: pseudo class
+:: pseudo element

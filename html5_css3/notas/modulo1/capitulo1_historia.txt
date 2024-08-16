@@ -1,0 +1,12 @@
+DARPA
+TCP/IP
+
+ARPANET
+	|_ MILNET
+	|_ NSFNET
+	|_ comerciais
+	
+www.submarinecablemap.com
+http, HTML, www - Tim Berners-Lee
+
+world wide web

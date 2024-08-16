@@ -1,0 +1,16 @@
+aula02 - instalação
+aula03 - config conta
+aula04 - primeiros passos
+aula05 - gerenciando repositórios (top)
+aula06 - github pages + QR code Generator (apenas HTML, CSS e JS)
+aula08 - recursos sociais
+aula09 - clonando repositórios
+aula10 - dicas finais
+	necessários: google chrome, VScode, git, github desktop
+	passos para sair de um computador emprestado:
+		- fechar todas as aplicações exceto o github desktop
+		- remover o repositório local (repository -> remove, also move to trash)
+		- file -> options -> singout
+		- file -> options -> git apagar os dados da conta e salvar
+		- esvaziar a lixeira
+	segurança em duas etapas

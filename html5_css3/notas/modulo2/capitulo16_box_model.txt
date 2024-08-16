@@ -1,0 +1,26 @@
+organização das partes do site
+caixas dentro de caixas
+	hierarquia de caixas
+	aninhamento
+	
+height - altura
+width - largura
+border - borda (dentro do elemento)
+padding - preenchimento de borda
+margin - preenchimento externo a borda
+outline - contorno (fora do elemento)
+
+tipos de caixas
+	box-level 
+		- sempre inicia na linha de baixo 
+		- ocupação de 100% da largura)
+		- ex.: <div>, <h1>-<h6>, <p>, <main>, <header>, <footer>, <video>
+	inline-level
+		- o conteúdo é colocado lado a lado
+		- várias caixas na mesma linha
+		- ex.: <span>, <a>, <code>, <strong>
+		
+margin: auto centraliza a caixa horizontalmente
+
+display: block -> box-level
+display: inline -> inline-level

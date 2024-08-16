@@ -1,0 +1,18 @@
+SEO - Search Engine Optimization
+
+////////////links externos////////
+links para sites externos
+	Eh interessante abrir a página
+	em nova aba para não sobrepor
+	minha página
+	<a href="URL" target="_blank" rel="external">hyper<\a>
+	
+///////////links internos////////
+rel="nofollow" significa que aquele link está relacionado com
+uma patrocinador ou uma notícia que está no texto mas ele não tem
+relação direta com o conteúdo do site e não é interessante
+que o Google faça indexação daquele conteúdo junto ao meu site
+
+////////links para download////
+dependendo do navegador, ele pode abrir o arquivo ao inves de fazer o
+download diretamente, entao pode ser interessante usar o parametro target="_blank"

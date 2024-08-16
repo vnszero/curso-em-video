@@ -1,0 +1,23 @@
+background_image
+
+sempre digitar e testar
+evitar acumulação de testes
+
+sempre configurar cor de fundo
+pois as imagens são carregadas
+depois. Assim uma cor de fundo
+permite que o usuário já possa
+usar o site enquanto carrega
+a imagem
+
+background_size: 100%
+background_size: contain
+background_size: cover (gostei desse, mas nenhum deles eh perfeito)
+
+background_size: cover + background-attachment: fixed; (meu melhor)
+
+if (position: absolute;){
+	left, top
+}
+
+aula07 capitulo19 centralização top

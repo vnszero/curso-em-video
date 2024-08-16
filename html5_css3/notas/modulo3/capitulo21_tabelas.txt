@@ -1,0 +1,28 @@
+tabelas não devem ser usadas para definir a estrutura do seu site
+
+hierarquia de tabelas pequenas
+	table - table
+		table row - tr
+			table header - th => títulos
+			table data - td => dados
+
+hierarquia de tabelas grandes
+	table
+		caption
+		thead
+			tr
+				th
+				td
+		tbody
+			tr
+				th
+				td
+		tfoot
+			tr
+				th
+				td
+				
+:nth-child() - pseudoclasse que numera os elementos e permite configurações zebradas
+
+rowspan - mescla linhas
+colspan - mescla colunas
