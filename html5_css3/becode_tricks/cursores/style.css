@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    transition: .15s all ease;
+}
+h1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    background: #222B45;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 4rem;
+    z-index: 1000;
+}
+.container {
+    background: #222B45;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+    display: grid;
+    padding: .5rem 9% .5rem;
+}
+.cursor {
+    background: rgb(255, 0, 242);
+    height: 3rem;  
+    text-align: center;
+    line-height: 3rem;
+    font-size: .85rem;
+    font-weight: 300;
+    color: #fff;
+}
+.cursor:hover {
+    color:rgba(255, 255, 255, 0.4);
+    height: 10rem;
+    line-height: 10rem;
+}
+
+.cursor:nth-child(1) { background: #F06292; cursor: default;}
+.cursor:nth-child(2) { background: #EC417A; cursor: crosshair;}
+.cursor:nth-child(3) { background: #E91F63; cursor: help;}
+.cursor:nth-child(4) { background: #D81C60; cursor: move;}
+.cursor:nth-child(5) { background: #C2185B; cursor: pointer;}
+.cursor:nth-child(6) { background: #AC1457; cursor: progress;}
+.cursor:nth-child(7) { background: #880E50; cursor: text;}
+.cursor:nth-child(8) { background: #BA68C8; cursor: wait;}
+.cursor:nth-child(9) { background: #AC47BB; cursor: cell;}
+.cursor:nth-child(10) { background: #9D27B0; cursor: nw-resize;}
+.cursor:nth-child(11) { background: #8E24A9; cursor: n-resize;}
+.cursor:nth-child(12) { background: #7B1FA2; cursor: ne-resize;}
+.cursor:nth-child(13) { background: #6B1B9A; cursor: copy;}
+.cursor:nth-child(14) { background: #4A148D; cursor: no-drop;}
+.cursor:nth-child(15) { background: #7987CB; cursor: vertical-text;}
+.cursor:nth-child(16) { background: #5D6AC0; cursor: alias;}
+.cursor:nth-child(17) { background: #3F51B6; cursor: w-resize;}
+.cursor:nth-child(18) { background: #3949AC; cursor: none;}
+.cursor:nth-child(19) { background: #30409F; cursor: e-resize;}
+.cursor:nth-child(20) { background: #283492; cursor: context-menu;}
+.cursor:nth-child(21) { background: #1B237E; cursor: not-allowed;}
+.cursor:nth-child(22) { background: #4DB5AB; cursor: nesw-resize;}
+.cursor:nth-child(23) { background: #26A79B; cursor: nwse-resize;}
+.cursor:nth-child(24) { background: #009688; cursor: sw-resize;}
+.cursor:nth-child(25) { background: #00897B; cursor: s-resize;}
+.cursor:nth-child(26) { background: #01796C; cursor: se-resize;}
+.cursor:nth-child(27) { background: #00695C; cursor: ew-resize;}
+.cursor:nth-child(28) { background: #004D40; cursor: ns-resize;}
+.cursor:nth-child(29) { background: #81C784; cursor: row-resize;}
+.cursor:nth-child(30) { background: #67BB6A; cursor: col-resize;}
+.cursor:nth-child(31) { background: #4CB051; cursor: all-scroll;}
+.cursor:nth-child(32) { background: #42A148; cursor: zoom-in;}
+.cursor:nth-child(33) { background: #388E3D; cursor: zoom-out;}
+.cursor:nth-child(34) { background: #2F7D33; cursor: grab;}
+.cursor:nth-child(35) { background: #1A5E1E; cursor: grabbing;}
